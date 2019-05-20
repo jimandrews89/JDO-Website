@@ -1,0 +1,142 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-heading {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+  font-size: 2rem;
+  background-image: linear-gradient(#263895, transparent 100%),
+                    linear-gradient(to top, white, white 15%, transparent 100%),
+                    url(Images/boston.jpg);
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 10px;
+  letter-spacing: 10px;
+  border-bottom: 2px solid white;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: .8em;
+  margin-top: 0;
+}
+
+/* a:link {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #263895;
+}
+
+a:hover {
+  color: #657FFE; */
+}
+
+/* Nav Bar */
+
+nav {
+  font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.headLinks {
+  display: inline;
+  padding: 10px 50px 10px;
+  border-right: 2px solid #263895;
+  Margin: 0;
+}
+
+#headLinksLinks {
+  border-right: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
+  font-size: 1em;
+}
+
+li a:hover
+
+
+
+
+
+
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+header .arrow:hover {
+  width: 60px;
+}
+
+.arrow {
+  width: 50px;
+  margin-top: 10px;
+}
+
+p {
+  font-family: arial;
+  font-size: 1em;
+  color: rgb(38, 56, 149);
+}
+
+.main-content {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  padding: 5px 50px 5px;
+  border-width: 1px;
+  background-color: rgba(38, 56, 149, 0.1);
+
+  margin-bottom: 20px;
+}
+
+.service-list {
+  text-align: center;
+  padding-top: 80px;
+	padding-bottom: 70px;
+  margin: auto;
+}
+
+#angiesList {
+  float: left;
+  margin-left: 200px;
+}
+
+#meca {
+  float: right;
+  margin-right: 200px;
+}
+
+.service-image {
+  height: 200px;
+}
